@@ -11,7 +11,7 @@ header {
   flex-direction: column;
   align-items: center;
   align-self: stretch;
-  background: var(--light-text-default-text, #1E293B);
+  background: #1E293B;
 }
 
 .header-container-login-add {
@@ -88,7 +88,7 @@ div#header-block-login button#header-button-add {
   border-radius: 4px;
   border: 1px solid transparent;
   color: #FFFFFF;
-  background: var(--light-utility-primary, #3B82F6);
+  background: #3B82F6;
 }
 
 .header-gutter {
@@ -127,7 +127,7 @@ button#header-button-category {
   justify-content: center;
   align-items: center;
   border-radius: 4px;
-  border: 1px solid var(--light-utility-primary, #3B82F6);
+  border: 1px solid #3B82F6;
   color: #3B82F6;
   background: #fff;
 }
@@ -143,8 +143,8 @@ button#header-button-category {
   align-items: center;
   width: 100%;
   border-radius: 4px 0px 0px 4px;
-  border: 1px solid var(--light-forms-border, #CBD5E1);
-  background: var(--light-forms-background, #FFF);
+  border: 1px solid #CBD5E1;
+  background: #FFF;
 }
 
 input#header-input-search, input#header-input-search:focus {
@@ -155,7 +155,7 @@ input#header-input-search, input#header-input-search:focus {
   color: #64748B;
   border: 1px solid transparent;
   background: #FFFFFF;
-  color: var(--light-text-secondary-text, #64748B);
+  color: #64748B;
   font-family: Inter;
   font-size: 14px;
   font-style: normal;
@@ -169,18 +169,18 @@ input#header-input-search, input#header-input-search:focus {
   justify-content: center;
   align-items: center;
   border-radius: 0px 4px 4px 0px;
-  background: var(--light-utility-primary, #3B82F6);
+  background: #3B82F6;
 }
 
 button#header-button-search {
   display: flex;
-  color: var(--light-text-inverse-text, #FFF);
+  color: #FFF;
   border: 1px solid transparent;
   font-family: Inter;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  background: var(--light-utility-primary, #3B82F6);
+  background: #3B82F6;
 }
 
 main {
@@ -198,7 +198,7 @@ main {
 
 .main-title-aboveoffers {
   width: 1296px;
-  color: var(--light-text-default-text, #1E293B);
+  color: #1E293B;
   font-family: Inter;
   font-size: 24px;
   font-style: normal;
@@ -235,7 +235,7 @@ main {
   margin-bottom: 8px;
   align-items: center;
   align-self: stretch;
-  background: lightgray 50%/cover no-repeat;
+  background: lightgray 50% cover no-repeat;
   border-radius: 4px;
 }
 
@@ -245,11 +245,11 @@ h2 {
   font-style: normal;
   font-weight: 600;
   line-height: 24px;
-  color: var(--light-text-primary-text, #3B82F6);
+  color: #3B82F6;
 }
 
 .card-price {
-  color: var(--light-text-default-text, #1E293B);
+  color: #1E293B;
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
@@ -262,7 +262,7 @@ h2 {
 }
 
 .card-adress {
-  color: var(--light-text-secondary-text, #64748B);
+  color: #64748B;
   font-family: Inter;
   font-size: 14px;
   font-style: normal;
@@ -271,7 +271,7 @@ h2 {
 }
 
 .card-datetime {
-  color: var(--light-text-secondary-text, #64748B);
+  color: #64748B;
   font-family: Inter;
   font-size: 14px;
   font-style: normal;
@@ -281,7 +281,7 @@ h2 {
 
 @font-face {
   font-family: "Inter";
-  src: url("/fonts/InterRegular.ttf") format("truetype");
+  src: url("./fonts/InterRegular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
